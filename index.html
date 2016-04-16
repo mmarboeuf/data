@@ -1,0 +1,567 @@
+
+<!doctype html>
+<html>
+<head>
+	  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Abel|Open+Sans:300' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="https://summer.ai/static/images/favicon.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://summer.ai/static/images/favicon.png" />
+  <meta name="description" content="summer.ai is a machine intelligence agency.">
+
+  <meta property="og:title" content="Machine intelligence Strategy"/>
+  <meta property="og:site_name" content="data"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://summer.ai/static/images/banner.png"/>
+  <meta property="og:url" content="https://summer.ai"/>
+  <meta property="og:description" content="summer.ai is a machine intelligence agency. We help companies make their products and business more intelligent through a comprehensive AI strategy."/>
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://summer.ai">
+<meta name="twitter:site" content="@summer__ai">
+<meta name="twitter:title" content="Machine intelligence Strategy">
+<meta name="twitter:description" content="summer.ai is a machine intelligence agency. We help companies make their products and business more intelligent through a comprehensive AI strategy.">
+<meta name="twitter:image:src" content="https://summer.ai/static/images/banner.png">
+
+	<title>data</title>
+	<link rel="stylesheet" href="landing.css">
+	<!-- Hotjar Tracking Code for summer.ai
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:56062,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+	</script> -->
+</head>
+<body>
+	
+  <div id="everything">
+
+    <div id="hero">
+      <div id="bubbles">
+        <div class="bubble bubble1"></div>
+        <div class="bubble bubble2"></div>
+        <div class="bubble bubble3"></div>
+      </div>
+      <div id="lights"></div>
+      <script src='//assets.codepen.io/assets/editor/live/console_runner-ba402f0a8d1d2ce5a72889b81a71a979.js'></script><script src='//assets.codepen.io/assets/editor/live/events_runner-d004902542b6f6191b16aa6145ed1d9c.js'></script><script src='//assets.codepen.io/assets/editor/live/css_live_reload_init-bad5f8d322020126e7b4287d497c7efe.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="canonical" href="http://codepen.io/ejones/pen/mJlCb#0" />
+
+
+<style class="cp-pen-styles">@import url("http://fonts.googleapis.com/css?family=Cabin:400,700,400italic");
+body,
+input,
+button,
+textarea,
+select {
+  font: 16px Cabin;
+  color: black;
+  background: #F6F6F2;
+}
+figure {
+  text-align: center;
+}
+[peak-chart] {
+  position: relative;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+  border-radius: 120px;
+  margin-top: 120px;
+  -webkit-transform: rotateX(45deg);
+  -moz-transform: rotateX(45deg);
+  -ms-transform: rotateX(45deg);
+  transform: rotateX(45deg);
+}
+[peak-chart],
+[peak-chart],
+[peak-chart] * {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+[peak-chart] > [face] {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+[peak-chart] > [face]:nth-child(1) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #33adcc, #33adcc 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #33adcc, #33adcc 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(2) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #5cbed6, #5cbed6 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #5cbed6, #5cbed6 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(3) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #3387cc, #3387cc 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #3387cc, #3387cc 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(4) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #5c9fd6, #5c9fd6 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #5c9fd6, #5c9fd6 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(5) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #575fa8, #575fa8 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #575fa8, #575fa8 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(6) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #787fba, #787fba 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #787fba, #787fba 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(7) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #c9365b, #c9365b 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #c9365b, #c9365b 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(8) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #d45e7b, #d45e7b 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #d45e7b, #d45e7b 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(9) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #5d9ca2, #5d9ca2 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #5d9ca2, #5d9ca2 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(10) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #7db0b5, #7db0b5 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #7db0b5, #7db0b5 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(11) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #a25ba4, #a25ba4 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #a25ba4, #a25ba4 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(12) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #b57bb7, #b57bb7 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #b57bb7, #b57bb7 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(13) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #c9cbcf, #c9cbcf 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #c9cbcf, #c9cbcf 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(14) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #e4e5e7, #e4e5e7 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #e4e5e7, #e4e5e7 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(15) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #c9cbcf, #c9cbcf 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #c9cbcf, #c9cbcf 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(16) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #e4e5e7, #e4e5e7 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #e4e5e7, #e4e5e7 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(17) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #c9cbcf, #c9cbcf 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #c9cbcf, #c9cbcf 50%, transparent 50%);
+}
+[peak-chart] > [face]:nth-child(18) {
+  background-image: -webkit-linear-gradient(bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), -webkit-linear-gradient(bottom right, #e4e5e7, #e4e5e7 50%, transparent 50%);
+  background-image: linear-gradient(to top left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 50%, transparent 50%), linear-gradient(to top left, #e4e5e7, #e4e5e7 50%, transparent 50%);
+}
+[peak-chart] > label {
+  position: absolute;
+  font-weight: bold;
+  font-size: 90%;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+[peak-chart] > label:before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(top right, #d6e7f5, #5c9fd6);
+  background-image: linear-gradient(to bottom left, #d6e7f5, #5c9fd6);
+}
+[peak-chart] > label[point=bottomright] {
+  padding-right: 6px;
+  padding-bottom: 9px;
+}
+[peak-chart] > label[point=bottomright]:before {
+  right: -3px;
+  bottom: 3px;
+}
+[peak-chart] > label[point=bottomleft] {
+  padding-left: 6px;
+  padding-bottom: 9px;
+}
+[peak-chart] > label[point=bottomleft]:before {
+  left: -3px;
+  bottom: 3px;
+}
+[peak-chart] > label[point=topleft] {
+  padding-left: 4px;
+  padding-top: 4px;
+}
+[peak-chart] > label[point=topleft]:before {
+  left: -3px;
+  top: -3px;
+}
+[peak-chart] > label[point=topright] {
+  padding-right: 4px;
+  padding-top: 4px;
+}
+[peak-chart] > label[point=topright]:before {
+  right: -3px;
+  top: -3px;
+}
+figcaption {
+  line-height: 36px;
+  font-style: italic;
+}
+figcaption button {
+  background: none;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 90%;
+  margin: 0;
+  padding: 1px 0.5em 0;
+  line-height: 1.3;
+  border-radius: 0.5em;
+  vertical-align: text-top;
+}
+figcaption button:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+</style></head><body>
+<main ng-app="myApp">
+  <figure ng-controller="chartCtrl">
+    <div peak-chart data="data">
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      <span face></span>
+      
+      <label></label>
+      <label></label>
+      <label></label>
+      <label></label>
+      <label></label>
+      <label></label>
+      <label></label>
+      <label></label>
+      <label></label>
+    </div>
+    <figcaption>
+      Some data. &nbsp;&nbsp;
+      <button ng-click="paused=!paused">
+        {{ paused && '\u25b8' || '\u2759\u2759' }}
+      </button>
+    </figcaption>
+  </figure>
+</main> 
+<script src='//assets.codepen.io/assets/common/stopExecutionOnTimeout.js?t=1'></script><script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js'></script>
+<script>// vim: et:sts=2:sw=2
+
+var angular = window.angular
+  , console = window.console;
+
+window.chartCtrl = ['$scope', function($scope) {
+  $scope.data = new Array(9);
+  
+  $scope.sample = function() {
+    if (!$scope.paused) {
+      for (var i=0, l=$scope.data.length; i < l; i++) {
+        $scope.data[i] = Math.random() * 95 + 5;
+      }
+    }
+  };
+  
+  $scope.paused = false;
+  
+  $scope.sample();
+  $scope.sampler = setInterval(function() {
+    if (!$scope.paused) {
+      $scope.$apply($scope.sample);
+    }
+  }, 2000);
+}];
+
+angular.module('myApp', []).
+
+directive('peakChart', ['$window', function($win) {
+  var PI   = Math.PI
+    , sin  = Math.sin
+    , cos  = Math.cos
+    , tan  = Math.tan
+    , atan = Math.atan
+    , acos = Math.acos
+    , sqrt = Math.sqrt
+    , pow  = Math.pow
+    , abs  = Math.abs
+    , rSkRo = /^(?:sk|ro)/;
+  
+  return {
+    link: function(scope, elm, attrs) {
+      var faces  = elm[0].querySelectorAll('[face]')
+        , labels = elm[0].getElementsByTagName('label')
+        , r      = elm[0].offsetWidth / 2
+        , charth = 1.5 * r; // max height of peaks: revisit
+
+      scope.$watch(attrs.data, function(data) {
+        var sum = 0;
+        angular.forEach(data, function(d) { sum += d; });
+        
+        // iterate slices
+        for (var i=0, face; (face = faces[2*i]); i++) {
+          var bkFace   = faces[2*i + 1]
+           //
+           // split the peaks evenly around the graph
+           //
+            , slice    = 2 * PI / (faces.length/2)
+            , npos     = i * slice - PI
+           //
+           // give the slice height based on data - assume data values are percentages
+           // also, tone down the peaks in front (HACK)
+           //
+            , val      = (i >= 4 ? data[i] * 0.6 : data[i])
+            , h        = val * charth / 100
+           //
+           // face angle - each face covers half the slice
+           //
+            , fang     = slice/2
+           // 
+           // we want the faces to meet at a point "h" pixels above the
+           // midpoint of the slice's arc
+           //
+            , chord    = 2 * r * sin(fang/2)
+           //
+           // chord's angle with radius
+           //  
+            , chang    = (PI - fang) / 2
+           //
+           // altitude from radius to arc midpoint
+           //
+            , alt2mp   = chord * sin(chang)
+
+            , slope    = atan(h / alt2mp)
+            , slopeLen = sqrt(pow(h,2) + pow(alt2mp,2))
+           //
+           // the radial triangles are half squares so h = r
+           //
+            , scaleY   = slopeLen / r
+            , skew     = atan(chord * cos(chang) / slopeLen)
+            ;
+          
+          setTransform(face,
+            'translateZ', 2,
+            'rotateZ',    npos,
+            'rotateX',    slope - Math.PI,
+            'skewX',      skew,
+            'scaleY',     scaleY
+          );
+          
+          setTransform(bkFace,
+            'translateZ', 2,
+            'rotateZ',    npos + slice,
+            'rotateX',    -slope,
+            'skewX',      skew,
+            'scaleY',     scaleY
+          );
+
+          var lbl = labels[i];
+          lbl.textContent = Math.round(val);
+
+          var rlbl   = r
+            , nlbl   = -npos - slice/2
+            , lblx   = rlbl * cos(nlbl)
+            , lbly   = rlbl * sin(nlbl)
+            , lblxat = lblx > 0 ? 'left'   : 'right'
+            , lblyat = lbly > 0 ? 'bottom' : 'top';
+
+          lbl.style[lblxat] = r + abs(lblx) + 'px';
+          lbl.style[lblyat] = r + abs(lbly) + 15 + 'px';
+          lbl.setAttribute('point', lblyat + lblxat); // e.g., [point=topleft]
+
+          if (i < 5) {
+            setTransform(lbl,
+              'rotateX',    deg(-45)
+            , 'translateY', -(h / sqrt(2))
+            , 'translateZ', h / sqrt(2)
+            );
+          }
+        }
+        
+      }, /* deep */ true);
+    }
+  };
+  
+  function rad(x) {
+    return (Math.round(x * 1000) / 1000) + 'rad';
+  }
+  
+  
+  function setTransform(node) {
+    var ns = node.style, trans = '';
+    for (var i=1, l=arguments.length; i < l; i += 2) {
+      var nm = arguments[i], val = arguments[i+1];
+      trans += nm + '(' + (
+          rSkRo.test(nm) ? rad(val)
+        : nm.slice(0, 2) === 'tr' ? val + 'px'
+        : val) + ') ';
+    }
+    ns.webkitTransform =
+      ns.mozTransform =
+      ns.msTransform =
+      ns.transform = trans;
+  }
+
+  function deg(x) {
+      return { valueOf: function() { return x * PI / 180; } };
+  }
+  
+}]);
+
+//# sourceURL=pen.js
+</script>
+      <div id="logo"></div>
+    </div>
+  <nav>
+  <ul>
+    <li><a href="index.html#services" title="Services">Services</a></li>
+    <li><a href="data/porfolio.html" title="Company">Porfolio</a></li>
+    <li><a href="maxmarboeuf.com" title="Careers">About</a></li>
+    <li><a href="mailto:max.marboeuf@gmail.com?subject=Let's talk about data!" title="Contact">Contact</a></li>
+  </ul>
+</nav>  
+
+  <main>
+    <div id="tagline">
+      <div class="container">
+      <p>Turn your data into action.</p>
+      <p>Help marketing, product and management teams 
+          through solutions to unique data challenges.</p>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h2>Expertise</h2>
+        <ul class="services">
+          <li class="BI">
+            <h3>Analytics &amp; Business Intelligence</h3>
+            <p>Leverage your data to understand your customers and sales funnels. Predicting lifetime value, retention rate, or purchasing patterns can help your business capture opportunities as they arise.</p>
+          </li>
+          <li class="Tableau">
+            <h3 class="short">Tableau Software</h3>
+            <p>We turn your data into meaningful information with Tableau. Tableau allows us to take the data and design as we go; building the story based on what we find in the data and what would be meaningful to the user.</p>
+          </li>
+          <li class="analytics">
+            <h3 class="short"> Quatitative UX research</h3>
+            <p>Turn your data into actionable insights. Understand the User experience throught data by</p>
+          </li>
+        </ul>
+        <div class="cta">
+          <a href="mailto:max.marboeuf@gmail.com?subject=Let's talk about data!" class="button blue">Learn how we can work together</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="team">
+      <div class="container">
+        <h2>The Human</h2>
+        
+        <div class="columns">
+        <div class="h-card manu">
+          <div class="avatar"><img class="u-photo" src="gravatar.png" alt="Max Marboeuf" /></div>
+          <div class="right">
+          <p class="n" >
+            <span class="p-name">
+              <span class="p-given-name">Max</span> <span class="p-family-name">Marboeuf</span>
+            </span>
+            <span class="p-job-title">CEO</span>
+          </p>
+          <p class="p-org">summer.ai</p>
+              <a class="p-nickname u-url" rel="me" href="https://twitter.com/@mmarboeuf">@mmarboeuf</a>
+              <a class="p-nickname u-url" rel="me" href="maxmarboeuf.com">maxmarboeuf.com</a>
+          <p class="p-note">Max Marboeuf is a data analyst, quantitative user researcher, apprentice photographer and avid traveller. He worked on desktop and mobile analytics, growth, global non profit organisations reporting and data driven journalism projects.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+<!--
+    <div id="lowercta">
+      <div class="container">
+        <p>Our experienced founding team has analyzed brain scans, trained computers to play jazz, and taught CS and AI at Osnabrück and Barcelona. We help humans do more with computers.</p>
+      </div>
+    </div> -->
+
+    <div class="marketing">
+      <div class="container">
+      <form action="#" id="leadform" class="lead blue">
+  <h2>Let's talk about data</h2>
+<!--
+  <div class="inner">
+    <input type="text" class="name" placeholder="Your Name">
+    <input type="text" class="company" placeholder="Company">
+    <input type="text" class="email" placeholder="Email">
+    <input type="submit" value="Get in touch">
+    <p class="small">Guaranteed response in 24 hours!</p>
+  </div> -->
+</form>
+ 
+<div class="cta lead blue">
+  <div class="or">and</div>
+  <a href="mailto:max.marboeuf@gmail.com?subject=Let's talk about data!" class="button blue">Get in touch</a>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/lead.min.js"></script>
+
+      </div>
+    </div>
+<!-- 
+  <div id="copyright">
+    <p class="logo">summer<span>.aı</span></p>
+    <p>Copyright &copy; 2015 Knot 6-3 LLC dba summer.ai. All rights reserved. <br /> No turtles were harmed in the production of this website.</p>
+</div>
+
+
+  </main>
+  </div>
+
+
+	
+	
+<!-- 
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-65448596-1', 'auto');
+	ga('send', 'pageview');
+	</script> -->
+</body>
+</html>
