@@ -1281,29 +1281,29 @@ table {
 #services ul.services li:before {
   content: "";
   display: block;
-  background: url(../images/icons.png) 0px 0px no-repeat;
-  background-size: 288px 192px;
+  background: url(img/icons.png) 0px 0px no-repeat;
+  background-size: 288px 96px;
   width: 96px;
   height: 96px;
   margin: 16px auto;
 }
 #services ul.services li.nlp:before {
-  background-position: 0px 0px;
+  background-position: px px;
 }
-#services ul.services li.classification:before {
-  background-position: -96px -96px;
+#services ul.services li.BI:before {
+  background-position: -96px 0px;
 }
 #services ul.services li.recommendation:before {
-  background-position: -192px 0px;
+  background-position: -96px 0px;
 }
 #services ul.services li.prediction:before {
   background-position: -96px 0px;
 }
-#services ul.services li.acquisition:before {
-  background-position: 0px -96px;
+#services ul.services li.classification:before {
+  background-position: -192px 0px;
 }
 #services ul.services li.growth:before {
-  background-position: -192px -96px;
+  background-position: -96px -0px;
 }
 #services ul.services li h3 {
   text-align: center;
