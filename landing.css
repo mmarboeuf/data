@@ -627,13 +627,13 @@ h3 {
   animation: bubble3 10s infinite;
 }
 #hero #logo {
-  background: url(../images/logotype.png) top right no-repeat;
+  background: url(/img/Kirigami.png) top right no-repeat;
   background-size: 100% 100%;
   position: relative;
   margin: 0px auto;
-  width: 266px;
+  width: 200px;
   z-index: 200;
-  height: 57px;
+  height: 50px;
 }
 #copyright {
   width: 500px;
